@@ -1,0 +1,56 @@
+<html>
+
+    <head>
+
+        <title>To Do List</title>
+
+        <link rel="stylesheet" href="ToDoList.css" type="text/css">
+
+    </head>
+
+    <body>
+
+        <h1>To do list</h1>
+
+        <form id="add">
+
+            <input id="title" placeholder="Enter your task title">
+
+            <br/>
+
+            <input id="duration" placeholder="Duration,ex:3days">
+
+            <br/>
+
+            <input id="start" placeholder="Start date,ex:DD/MM/YYYY">
+
+            <input type="submit" value="Submit" id="submit" >
+            
+            <br/>
+            
+            <input id="end" placeholder="End date,ex:DD/MM/YYYY">
+
+        </form>
+
+        <table id="headers" border="1" cellspacing="0" cellpadding="5">
+            
+            <tr>
+                
+                <td class="header">Task</td>
+                <td class="header">Duration</td>
+                <td class="header">Starts</td>
+                <td class="header">End</td>
+            
+            </tr>
+        
+        </table>
+        
+        <table id="saved" border="1" cellspacing="0" cellpadding="5"></table>
+        
+        <script src="https://cdn.jsdelivr.net/npm/gun/gun.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="ToDoList.js"></script>
+
+    </body>
+
+</html>

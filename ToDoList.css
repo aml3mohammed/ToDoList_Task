@@ -1,0 +1,50 @@
+input{
+    padding: 5 ;
+    margin: 5 ;
+}
+#submit{
+    margin-left: 50 ;
+    
+}
+form{
+    margin-bottom: 50 ;
+}
+table{
+    background: rgb(221, 228, 163) ;
+    margin: 0 ;
+}
+td{
+    width: 12em ;
+    text-align: center ;
+}
+.header{
+    font-weight: bold ;
+    border-width: 1px ;
+    border-bottom-width: 0px ;
+    font-style: italic ;
+}
+#header{
+    border-color: white ;            
+    border-bottom-width: 0px ;
+    border-right-width: 0px ;
+
+    }
+.saved{
+    border-width: 1px ;
+    border-color: black ;
+}
+#saved{
+    border-color: white ;
+    border-right-width: 0px ;
+    border-bottom-width: 0px ;
+    border-top-width: 0px ;
+}
+img{
+    height: 20px ;
+    cursor: pointer ;
+}
+.options{
+    background-color: white ;
+    border-width: 0px ;
+    width: 3px ;
+}
